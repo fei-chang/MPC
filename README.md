@@ -31,10 +31,15 @@ MPC：多方安全计算(Secure Multi-Party Computation)是指在无可信第三
 
 ### 同态加密 (Homomorphic Encryption)
 
-- RSA 算法
-- ElGamal 算法
-- Pailliar 算法
+RSA 算法
+ElGamal 算法
+Pailliar 算法
+- 公私钥生成
 
+  生成大素数p, q, 计算<img src="https://latex.codecogs.com/svg.latex?n=p \cdot q" />, <img src="https://latex.codecogs.com/svg.latex?\lambda = lcm(p-1, q-1)" />
+    
+- 加密
+- 解密
 ### 秘密共享(Secret Sharing)
 
 - Shamir 算法
