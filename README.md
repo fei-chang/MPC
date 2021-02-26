@@ -53,7 +53,7 @@ MPC：多方安全计算(Secure Multi-Party Computation)是指在无可信第三
 
 根据传输信息数量级不同的分类：
 
-- **$OT_{n}^1$** : 1-out-of-n(多选一)不经意传输
+- **$`OT_{n}^1`$** : 1-out-of-n(多选一)不经意传输
   - 信息供给方A提供$n$条消息:$\{m_{i}\}_{i=1}^n$,协议执行后，接收方B得到其中的一个消息（保证对A的隐私性）,A不知道B选择的是哪一个消息（保证对B的隐私性），B可以确信他得到了想要的消息（正确性）。
 - **$OT_{n}^k$** : k-out-of-n(多选多)不经意传输
   - 信息供给方A提供$n$条消息:$\{m_{i}\}_{i=1}^n$,协议执行后，接收方B得到其中的$k(k<n)$个消息（保证对A的隐私性）,A不知道B选择的是哪些消息（保证对B的隐私性），B可以确信他得到了想要的消息（正确性）。
@@ -77,10 +77,10 @@ MPC：多方安全计算(Secure Multi-Party Computation)是指在无可信第三
 ## 解决方案案例
 ### 一、[腾讯云TBaaS](https://cloud.tencent.com/product/tbaas/details)
 总体架构图
-![TBaaS架构图](案例-腾讯TBaaS-架构图.png)
+![TBaaS架构图](pics/案例-腾讯TBaaS-架构图.png)
 
 - TrustSQL
-![TrustSQL架构图](pics\案例-腾讯TrustSQL-架构图.png)
+![TrustSQL架构图](pics/案例-腾讯TrustSQL-架构图.png)
 
 
 
@@ -93,7 +93,7 @@ MPC：多方安全计算(Secure Multi-Party Computation)是指在无可信第三
 ### 二、 [华为区块链可信多方安全计算解决方案](https://www.huaweicloud.com/solution/blockchain-smpc.html)
 
 总体架构图
-![华为架构图](案例-华为-架构图.png)
+![华为架构图](pics/案例-华为-架构图.png)
 
 - **联邦学习（特殊机器学习方案）** 可见附一
 
