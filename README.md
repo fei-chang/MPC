@@ -80,7 +80,7 @@ MPC：多方安全计算(Secure Multi-Party Computation)是指在无可信第三
 ![TBaaS架构图](案例-腾讯TBaaS-架构图.png)
 
 - TrustSQL
-![TrustSQL架构图](案例-腾讯TrustSQL-架构图.png)
+![TrustSQL架构图](pics\案例-腾讯TrustSQL-架构图.png)
 
 
 
